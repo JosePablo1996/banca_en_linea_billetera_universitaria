@@ -10,54 +10,32 @@ dependencies:
   flutter:
     sdk: flutter
   
-  # UI y Material Design
-  cupertino_icons: ^1.0.2
-  
-  # Backend y Base de Datos
-  supabase_flutter: ^2.1.2
-  
-  # State Management
+  cupertino_icons: ^1.0.6
+  supabase_flutter: ^2.10.3
   provider: ^6.1.1
-  
-  # Internacionalización y Formatos
-  intl: ^0.18.1
-  
-  # Selección de Imágenes
-  image_picker: ^1.0.4
-  
-  # Manejo de Archivos
-  path_provider: ^2.1.1
-  path: ^1.8.3
-  
-  # Almacenamiento Local
-  shared_preferences: ^2.2.2
-  
-  # Seguridad y Biometría
-  local_auth: ^2.1.6
-  flutter_secure_storage: ^8.0.0
-  
-  # HTTP y Networking
-  http: ^1.1.0
-  
-  # Manejo de Permisos
-  permission_handler: ^11.0.1
+  intl: ^0.19.0
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.3
+  local_auth: ^2.3.0  # Última versión estable
+  flutter_secure_storage: ^9.2.4
+  http: ^1.2.0
+  permission_handler: ^12.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
-  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.0
 
-# Configuración de Flutter
 flutter:
   uses-material-design: true
   
-  # Assets para la aplicación
   assets:
     - assets/images/
     - assets/icons/
 
-# Configuración para generar íconos
 flutter_icons:
   android: true
   ios: true
