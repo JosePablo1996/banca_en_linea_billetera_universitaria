@@ -16,7 +16,7 @@ jobs:
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.16.0'
+        flutter-version: '3.19.0'  # ✅ CAMBIADO: Usa Flutter más reciente
         cache: true
         
     - name: Get dependencies
@@ -43,7 +43,8 @@ jobs:
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.16.0'
+        flutter-version: '3.19.0'  # ✅ CAMBIADO
+        cache: true
         
     - name: Setup Java
       uses: actions/setup-java@v3
