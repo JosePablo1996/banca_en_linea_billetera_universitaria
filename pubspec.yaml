@@ -1,0 +1,67 @@
+name: mi_billetera_universitaria
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI y Material Design
+  cupertino_icons: ^1.0.2
+  
+  # Backend y Base de Datos
+  supabase_flutter: ^2.1.2
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Internacionalización y Formatos
+  intl: ^0.18.1
+  
+  # Selección de Imágenes
+  image_picker: ^1.0.4
+  
+  # Manejo de Archivos
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # Almacenamiento Local
+  shared_preferences: ^2.2.2
+  
+  # Seguridad y Biometría
+  local_auth: ^2.1.6
+  flutter_secure_storage: ^8.0.0
+  
+  # HTTP y Networking
+  http: ^1.1.0
+  
+  # Manejo de Permisos
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# Configuración de Flutter
+flutter:
+  uses-material-design: true
+  
+  # Assets para la aplicación
+  assets:
+    - assets/images/
+    - assets/icons/
+
+# Configuración para generar íconos
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
+  adaptive_icon_foreground: "assets/icons/adaptive-icon.png"
+  adaptive_icon_background: "#1A237E"
+  min_sdk_android: 21
